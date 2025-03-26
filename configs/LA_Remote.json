@@ -1,0 +1,1592 @@
+{
+  "Nodes": {
+    "Nodes": {
+      "127.0.0.1": {
+        "$type": "rFpro.NodePhysics64",
+        "Address": "127.0.0.1",
+        "MacAddress": "",
+        "Disabled": false,
+        "Channel3D": "",
+        "Mirror": false,
+        "CameraOverride": null,
+        "RenderCockpitOverride": null,
+        "Camera": null,
+        "Cockpit": -1,
+        "Hud": null,
+        "SteeringWheelRender": -1,
+        "HudFileOverride": null,
+        "RenderSteeringWheelOverride": null,
+        "WarpBlendPluginOverride": null,
+        "WarpBlendPlugins": [
+          "DateAndTime",
+          "domeprojectionPlugin",
+          "IGOffsetPlugin",
+          "ImmersaviewPlugin",
+          "ScalablePlugin",
+          "ViosoPlugin"
+        ],
+        "SpectateAddress": null,
+        "VideoConfig": {
+          "DisplayDevice": "NVIDIA GeForce RTX 4080 Laptop GPU",
+          "PixelsWidth": 1936,
+          "PixelsHeight": 1100,
+          "DisplayFrequency": 1,
+          "AntiAliasLevel": 2,
+          "FishEye": -1,
+          "BitsPerChannel": 16,
+          "EnableVideoSync": true,
+          "VelocityBuffer": false,
+          "VR": "None",
+          "RenderProfile": "Default",
+          "Stereo3D": false,
+          "MultiView": false,
+          "Headless": false,
+          "Hdr": false,
+          "WindowedMode": 1,
+          "RenderingApi": 1,
+          "EnableMultiCable": false,
+          "MultiCableLayout": [],
+          "EnableOutputScaling": false,
+          "OutputScaleX": 1.0,
+          "OutputScaleY": 1.0,
+          "Exposure": 0.0
+        },
+        "PhysicsConfig": {
+          "DefaultStartLocationType": "Garage",
+          "DefaultStartLocationData": "0",
+          "StartAtZero": 0,
+          "Vehicle": "SaloonBlack_RH",
+          "PhysicsRate": 1000,
+          "VehiclePlugin": "TorrenceCrossroads_Hosted",
+          "SoundPlugin": "",
+          "KeepLegacySound": false,
+          "PhysicsStartsTerrainServer": false,
+          "TerrainServerOnlyControlSignals": false,
+          "ModelToRFProVector": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "Name": "L-ELLIOTL"
+      }
+    }
+  },
+  "Assets": {
+    "Locations": [
+      {
+        "Name": "2kFlat",
+        "Folder": "C:\\rFpro\\2024b\\rFpro\\GameData\\Locations\\2kFlat\\2kFlat",
+        "StartTime": "2025-02-03T18:00:00",
+        "SceneVariations": [
+          {
+            "Name": "Base",
+            "FullPath": "2kFlat\\2kFlat\\Scenarios\\Base.svar"
+          },
+          {
+            "Name": "Paint_Circles_5m",
+            "FullPath": "2kFlat\\2kFlat\\Scenarios\\Paint_Circles_5m.svar"
+          },
+          {
+            "Name": "Paint_Circles_Lge",
+            "FullPath": "2kFlat\\2kFlat\\Scenarios\\Paint_Circles_Lge.svar"
+          },
+          {
+            "Name": "Paint_Circles_Sml",
+            "FullPath": "2kFlat\\2kFlat\\Scenarios\\Paint_Circles_Sml.svar"
+          },
+          {
+            "Name": "Paint_Cross_Diagonal",
+            "FullPath": "2kFlat\\2kFlat\\Scenarios\\Paint_Cross_Diagonal.svar"
+          },
+          {
+            "Name": "Paint_Cross_Straight",
+            "FullPath": "2kFlat\\2kFlat\\Scenarios\\Paint_Cross_Straight.svar"
+          },
+          {
+            "Name": "White_Wall",
+            "FullPath": "2kFlat\\2kFlat\\Scenarios\\White_Wall.svar"
+          }
+        ]
+      },
+      {
+        "Name": "2kFlatTrafficLHD",
+        "Folder": "C:\\rFpro\\2024b\\rFpro\\GameData\\Locations\\2kFlat\\2kFlatTrafficLHD",
+        "StartTime": "2008-04-27T13:00:00",
+        "SceneVariations": [
+          {
+            "Name": "AllObjects",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\AllObjects.svar"
+          },
+          {
+            "Name": "AltBuildings",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\AltBuildings.svar"
+          },
+          {
+            "Name": "Base",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\Base.svar"
+          },
+          {
+            "Name": "Buildings",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\Buildings.svar"
+          },
+          {
+            "Name": "Buildings_Trees",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\Buildings_Trees.svar"
+          },
+          {
+            "Name": "Buildings_Trees_RoadObjects",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\Buildings_Trees_RoadObjects.svar"
+          },
+          {
+            "Name": "Buildings_Trees_RoadObjects_StaticCars",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\Buildings_Trees_RoadObjects_StaticCars.svar"
+          },
+          {
+            "Name": "Buildings_Trees_RoadObjects_StaticCars_Pedestrians",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\Buildings_Trees_RoadObjects_StaticCars_Pedestrians.svar"
+          },
+          {
+            "Name": "Buildings_Trees_RoadObjects_StaticCars_Pedestrians_Cones",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\Buildings_Trees_RoadObjects_StaticCars_Pedestrians_Cones.svar"
+          },
+          {
+            "Name": "NoBuildings",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\NoBuildings.svar"
+          },
+          {
+            "Name": "NoCones",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\NoCones.svar"
+          },
+          {
+            "Name": "NoStaticCarsOrPedestrians",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\NoStaticCarsOrPedestrians.svar"
+          },
+          {
+            "Name": "NoTrees",
+            "FullPath": "2kFlat\\2kFlatTrafficLHD\\Scenarios\\NoTrees.svar"
+          }
+        ]
+      },
+      {
+        "Name": "2kFlatTrafficRHD",
+        "Folder": "C:\\rFpro\\2024b\\rFpro\\GameData\\Locations\\2kFlat\\2kFlatTrafficRHD",
+        "StartTime": "2008-04-27T13:00:00",
+        "SceneVariations": [
+          {
+            "Name": "AllObjects",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\AllObjects.svar"
+          },
+          {
+            "Name": "AltBuildings",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\AltBuildings.svar"
+          },
+          {
+            "Name": "Base",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\Base.svar"
+          },
+          {
+            "Name": "Buildings",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\Buildings.svar"
+          },
+          {
+            "Name": "Buildings_Trees",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\Buildings_Trees.svar"
+          },
+          {
+            "Name": "Buildings_Trees_RoadObjects",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\Buildings_Trees_RoadObjects.svar"
+          },
+          {
+            "Name": "Buildings_Trees_RoadObjects_StaticCars",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\Buildings_Trees_RoadObjects_StaticCars.svar"
+          },
+          {
+            "Name": "Buildings_Trees_RoadObjects_StaticCars_Pedestrians",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\Buildings_Trees_RoadObjects_StaticCars_Pedestrians.svar"
+          },
+          {
+            "Name": "Buildings_Trees_RoadObjects_StaticCars_Pedestrians_Cones",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\Buildings_Trees_RoadObjects_StaticCars_Pedestrians_Cones.svar"
+          },
+          {
+            "Name": "NoBuildings",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\NoBuildings.svar"
+          },
+          {
+            "Name": "NoCones",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\NoCones.svar"
+          },
+          {
+            "Name": "NoStaticCarsOrPedestrians",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\NoStaticCarsOrPedestrians.svar"
+          },
+          {
+            "Name": "NoTrees",
+            "FullPath": "2kFlat\\2kFlatTrafficRHD\\Scenarios\\NoTrees.svar"
+          }
+        ]
+      },
+      {
+        "Name": "LA_Road_Loop",
+        "Folder": "C:\\rFpro\\2024b\\rFpro\\GameData\\Locations\\LA_Road_Loop\\LA_Road_Loop",
+        "StartTime": "2025-02-03T08:00:00",
+        "SceneVariations": []
+      }
+    ],
+    "VehiclesList": [
+      {
+        "Name": "Accord_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Accord_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Accord_Burgundy",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Accord_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Accord_Silver",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Accord_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA3_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA3_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA3_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA3_Silv",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA3_Sky",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA3_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA5S_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA5S_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA5S_Silv",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA5S_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiA5S_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiTT_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiTT_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiTT_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiTT_Silv",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiTT_Sky",
+        "IsTraffic": true
+      },
+      {
+        "Name": "AudiTT_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "ChevroletPickup_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "ChevroletPickup_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "ChevroletPickup_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "ChevroletPickup_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "ChevroletPickup_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Coach_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Coach_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Coach_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Coach_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Coach_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Compact_Car_AWD_Camo",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Compact_Car_FWD_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Compact_Car_FWD_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Compact_Car_FWD_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Compact_Car_FWD_Silver",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Compact_Car_FWD_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "CRV_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "CRV_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "CRV_Burgundy",
+        "IsTraffic": true
+      },
+      {
+        "Name": "CRV_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "CRV_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "CRV_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "DDBus_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "DDBus_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "DDBus_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "DDBus_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "DDBus_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Emergency_Ambulance_Germany",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Emergency_Ambulance_UK",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Emergency_Ambulance_US",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Emergency_Police_Germany",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Emergency_Police_Japan",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Emergency_Police_UK",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Emergency_Police_US",
+        "IsTraffic": true
+      },
+      {
+        "Name": "FireTruck",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Fit_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Fit_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Fit_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Fit_Silver",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Fit_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Fit_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Formula_2022_TestTeam_Hard",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Formula_2022_TestTeam_Medium",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Formula_2022_TestTeam_Soft",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_Black_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_Blue_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_Camo",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_Red_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_AWD_White_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_FWD_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_FWD_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_FWD_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_FWD_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_GTI_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_GTI_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_GTI_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_GTI_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_RWD_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_RWD_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_RWD_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback_RWD_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback-EV_FWD_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Hatchback-EV_FWD_Red_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "HGV_Kenworth_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Box01_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Box01_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Box02_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Box02_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Box02_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Box02_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Flatbed1_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Flatbed1_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Flatbed2_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Flatbed2_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Flatbed2_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Tanker_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Tanker_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Tanker_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Tanker_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Trailer1_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Trailer1_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Trailer2_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Trailer3_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Trailer3_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Transporter_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Transporter_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_Kenworth+Transporter_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Box01_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Box01_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Box01_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Box01_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Box02_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Box02_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Box02_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Box02_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Flatbed1_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Flatbed1_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Flatbed1_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Flatbed2_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Flatbed2_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Flatbed2_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Flatbed2_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Tanker_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Tanker_Chrome",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Tanker_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Tanker_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Tanker_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Tanker_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer1_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer1_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer1_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer2_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer2_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer3_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer3_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer3_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Trailer3_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Transporter_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Transporter_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Transporter_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "HGV_MAN+Transporter_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Hyundai10_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Large_Car_AWD_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Large_Car_AWD_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Large_Car_AWD_Camo",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Large_Car_AWD_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Large_Car_AWD_Silver",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Large_Car_AWD_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Medium_Car_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Medium_Car_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Medium_Car_Camo",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Medium_Car_Grey",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Medium_Car_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Medium_Car_Silver",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Medium_Car_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "MercedesA_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesA_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesA_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesA_Silv",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesA_Sky",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesA_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesE_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesE_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesE_Brown",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesE_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MercedesE_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MiniBus_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MiniBus_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MiniBus_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MiniBus_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "MiniBus_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peug5008+Caravan_L_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peug5008+Caravan_S_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peug5008+CaravanRack_L_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peug5008+CaravanRack_S_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot108_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot108_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot108_Orange",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot108_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot108_Sky",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot5008_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot5008_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot5008_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot5008_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Peugeot5008_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "PorscheCayman_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "PorscheCayman_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "PorscheCayman_Orange",
+        "IsTraffic": true
+      },
+      {
+        "Name": "PorscheCayman_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "PorscheCayman_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "RRS_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "RRS_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "RRS_Orange",
+        "IsTraffic": true
+      },
+      {
+        "Name": "RRS_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "RRS_Sky",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Safety_car",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonBlack",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonBlack_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonBronze",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonBronze_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonDarkBlue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonDarkBlue_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonDarkBrown",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonDarkBrown_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonGrey",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonGrey_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonLightBlue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonLightBlue_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonRed",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonRed_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonSilver",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonSilver_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonWhite",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SaloonWhite_RH",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SDBus_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "SDBus_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "SDBus_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "SDBus_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "SDBus_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Smart_EQ_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Smart_EQ_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Smart_EQ_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "SubCompact_Car_FWD_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SubCompact_Car_FWD_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SubCompact_Car_FWD_Camo",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SubCompact_Car_FWD_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SubCompact_Car_FWD_Silver",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SubCompact_Car_FWD_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SUV_AWD_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SUV_AWD_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SUV_AWD_Camo",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SUV_AWD_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SUV_AWD_Silver",
+        "IsTraffic": false
+      },
+      {
+        "Name": "SUV_AWD_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "TeslaModelS_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "TeslaModelS_Cherry",
+        "IsTraffic": true
+      },
+      {
+        "Name": "TeslaModelS_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "TeslaModelS_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "TeslaModelS_Sky",
+        "IsTraffic": true
+      },
+      {
+        "Name": "ToyotaVan_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "ToyotaVan_Cherry",
+        "IsTraffic": true
+      },
+      {
+        "Name": "ToyotaVan_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Traffic_SUV_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Box01",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Box02",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Flatbed1",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Flatbed2",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Hay",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Tanker_Chrome",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Tanker_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Trailer1",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Trailer2",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Trailer3",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Transporter",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Trailer_Water",
+        "IsTraffic": true
+      },
+      {
+        "Name": "Unbranded_Bug_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_Bug_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_Bug_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_Bug_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_Bug_Yellow",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_Bug_Yellow_RWD",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_HGV_Tractor_Black",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_HGV_Tractor_Blue",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_HGV_Tractor_Green",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_HGV_Tractor_Red",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_HGV_Tractor_White",
+        "IsTraffic": false
+      },
+      {
+        "Name": "Unbranded_HGV_Tractor_Yellow",
+        "IsTraffic": false
+      },
+      {
+        "Name": "UtilityTractor_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "UtilityTractor+Hay_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "UtilityTractor+Hay_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "UtilityTractor+Hay_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "UtilityTractor+Water_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "UtilityTractorLoader_Green",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanDAF_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanDAF_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanDAF_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanDAF_White",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanDAF_Yellow",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanTransit_Black",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanTransit_Blue",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanTransit_Grey",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanTransit_Red",
+        "IsTraffic": true
+      },
+      {
+        "Name": "VanTransit_White",
+        "IsTraffic": true
+      }
+    ],
+    "Huds": [
+      "ARCADE STYLE HUD",
+      "GTDIAL",
+      "MINI HUD",
+      "MULTI DIAL",
+      "ONSCREEN",
+      "ONSCREENLIGHT",
+      "TEXTONLY"
+    ],
+    "VehiclePlugins": [
+      "RemoteModelPlugin",
+      "TorrenceCrossroads_Hosted",
+      "TrackGeometrySamplePlugin"
+    ],
+    "SoundPlugins": [
+      "FMODStudioV1Plugin",
+      "FMODStudioV2Plugin",
+      "SimSoundPlugin"
+    ],
+    "HardwarePlugins": [],
+    "WarpBlendPlugins": null,
+    "TrafficPlugins": [
+      "SumoPlugin"
+    ],
+    "MessageType": "rFpro.Assets"
+  },
+  "AutoStartLocalListener": false,
+  "Location": "LA_Road_Loop",
+  "Variations": [],
+  "Camera": "TVCockpit",
+  "AddressWarpServer": "127.0.0.1",
+  "FilterTrafficVehicles": false,
+  "EnableProfiling": false,
+  "SoundPlugin": "",
+  "WarpBlendPlugin": "",
+  "HardwarePlugin": "",
+  "TrafficPlugin": "",
+  "ReplayServerAddress": null,
+  "EnableMotionInfo": true,
+  "SynchroStep": true,
+  "MuGain": 1.0,
+  "Ipd": 65.0,
+  "FilterFrequencies": {
+    "CameraHeave": 0.0,
+    "CameraRoll": 0.0,
+    "CameraPitch": 0.0,
+    "CameraYaw": 0.0,
+    "MotionPlatformHeave": 0.0,
+    "MotionPlatformRoll": 0.0,
+    "MotionPlatformPitch": 0.0,
+    "TerrainServerTarmac": 0.0,
+    "TerrainServerGrass": 0.0,
+    "TerrainServerDirt": 0.0,
+    "TerrainServerGravel": 0.0,
+    "TerrainServerKerb": 0.0
+  },
+  "TextureDetail": 3,
+  "ShadowDetail": 4,
+  "AmbientShadowDetail": 0,
+  "EnvironmentReflections": 2,
+  "SpecialEffectsLevel": 4,
+  "SSAOLevel": 3,
+  "RenderSteeringWheel": 0,
+  "RenderCockpit": 0,
+  "EnableHud": false,
+  "HudInCockpit": true,
+  "HudFile": "GTDIAL",
+  "ExposureMode": 0,
+  "Exposure": 0.0,
+  "Volume": {
+    "Engine": 1.0,
+    "Effects": 1.0,
+    "Road": 0.5,
+    "Scrub": 0.5,
+    "Skid": 0.5
+  },
+  "OldestPaintAge": 0.0,
+  "NewestPaintAge": 1.0,
+  "PaintInstanceFilter": "PAINT",
+  "PaintMaterialFilter": "PAINT",
+  "ParkedTrafficDensity": 0.5,
+  "ParkedTrafficSeed": 35234,
+  "ScreenshotFormat": 0,
+  "DynamicWeatherEnabled": false,
+  "DeterministicWeather": true,
+  "Rain": 0.0,
+  "Cloudiness": 0.0,
+  "Fog": 0.0,
+  "RoadWetness": 0.0,
+  "Snow": false,
+  "DriverTrainingLine": {
+    "LineType": 0,
+    "Texture": 0,
+    "ShowSuggestedDriverInputs": false
+  },
+  "UserSettings": {
+    "$type": "WindowsFormsApplication1.ApplicationSettings",
+    "WindowSize": "903, 597",
+    "WindowLocation": "975, 160",
+    "AutoSaveOnExit": true,
+    "Branding": "LMP",
+    "TipAtStartup": -1,
+    "FogLevelX": [
+      0.0,
+      0.15,
+      0.3,
+      0.45,
+      0.6,
+      0.75,
+      0.9,
+      1.0
+    ],
+    "FogLevelY": [
+      0.0,
+      0.00032,
+      0.00064,
+      0.00128,
+      0.0025,
+      0.005,
+      0.01,
+      0.02
+    ],
+    "WetRoadLevelX": [
+      0.0,
+      1.0
+    ],
+    "WetRoadLevelY": [
+      0.0,
+      1.0
+    ],
+    "SimEnd": {
+      "Mode": 0,
+      "Time": 0.0,
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0,
+      "Distance": 10.0
+    }
+  },
+  "StartLightDelay": 4.0,
+  "LightFlashPeriodGreen": 500,
+  "LightFlashPeriodYellow": 250,
+  "LightFlashPeriodDoubleYellow": 125,
+  "LightFlashPeriodRed": 500,
+  "LightFlashPeriodBlue": 500,
+  "LightFlashPeriodVSC": 500,
+  "LightFlashPeriodSC": 500,
+  "PortListeners": 20242,
+  "AddressBroadcast": "127.255.255.255",
+  "AutoWakeOnLan": false,
+  "FileVersion": 20242,
+  "PortSimControl": 11002,
+  "PortTerrainServer": 11006,
+  "AddressReceive": "0.0.0.0",
+  "PortAdminConsole": 11004,
+  "LogLevel": 3,
+  "GetDiagnosticsTimeoutSeconds": 120
+}
